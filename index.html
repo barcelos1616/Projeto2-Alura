@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Rumo ao Museu Butantan</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="https://i.pinimg.com/originals/18/27/3a/18273adb23c1b5f7be514996bedb6da5.jpg" alt="Imagem de Campinas">
+            <p>Em um dia ensolarado, você decide sair de casa em Campinas rumo a uma grande aventura no Museu Butantan, em São Paulo, conhecido por suas pesquisas e cobras exóticas. A estrada é longa, mas cheia de possibilidades. Antes de partir, você precisa decidir qual rota seguir.</p>
+            <button class="btn-proximo" data-proximo="1">Seguir pela Rodovia dos Bandeirantes</button>
+            <button class="btn-proximo" data-proximo="2">Seguir pela Rodovia Anhanguera</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você escolhe a Rodovia dos Bandeirantes, conhecida por ser rápida e bem cuidada. A viagem começa tranquila, mas logo você se depara com uma placa indicando uma parada turística.</p>
+            <button class="btn-proximo" data-proximo="3">Parar no outlet</button>
+            <button class="btn-proximo" data-proximo="4">Continuar direto para São Paulo</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>A Rodovia Anhanguera oferece paisagens mais rústicas e nostálgicas. Durante o trajeto, você avista um restaurante famoso na estrada.</p>
+            <button class="btn-proximo" data-proximo="5">Parar para almoçar</button>
+            <button class="btn-proximo" data-proximo="4">Continuar direto para São Paulo</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>No outlet, você encontra promoções irresistíveis. Após gastar algum tempo (e dinheiro), você retoma sua viagem ao Museu Butantan, agora com mais sacolas do que esperava.</p>
+            <button class="btn-proximo" data-proximo="6">Seguir para o museu</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa1p1FNIKSNAm8xLf7p7CTNMN80ruInSpU6Q&s" alt="Entrada de São Paulo">
+            <p>Você ignora as paradas e segue diretamente para São Paulo. Chegando na cidade, o trânsito intenso desafia sua paciência, mas você está determinado a chegar ao Butantan.</p>
+            <button class="btn-proximo" data-proximo="7">Enfrentar o trânsito e continuar</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>O restaurante rústico é aconchegante, e o cheiro de comida caseira enche o ar. Após uma refeição deliciosa, você retoma a estrada com mais energia.</p>
+            <button class="btn-proximo" data-proximo="6">Seguir para o museu</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Ao chegar no Museu Butantan, você finalmente entra e começa a explorar suas exposições fascinantes sobre cobras, aranhas e venenos.</p>
+            <button class="btn-proximo" data-proximo="8">Explorar o setor de cobras</button>
+            <button class="btn-proximo" data-proximo="9">Visitar o laboratório de venenos</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você enfrenta o trânsito pesado, mas seu esforço compensa ao chegar ao Butantan. O museu está cheio de curiosidades e você mal pode esperar para descobrir mais sobre os animais e pesquisas de lá.</p>
+            <button class="btn-proximo" data-proximo="6">Explorar o museu</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>O setor de cobras abriga diversas espécies, desde as mais inofensivas até as mais venenosas. Você aprende sobre os cuidados e pesquisas realizados no local.</p>
+            <button class="btn-proximo" data-proximo="10">Finalizar a visita</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>No laboratório de venenos, você vê de perto os processos de extração e estudo dos venenos para o desenvolvimento de antídotos.</p>
+            <button class="btn-proximo" data-proximo="10">Finalizar a visita</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Após um dia de descobertas e aprendizados no Museu Butantan, você volta para Campinas com uma bagagem cheia de conhecimento e histórias para contar.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

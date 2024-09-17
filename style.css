@@ -1,0 +1,70 @@
+
+body {
+    background-color: #1D4221; /* Cor que remete a floresta densa */
+    color: #E8F5E9; /* Cor clara para contraste */
+    font-family: 'Pirata One', cursive; /* Fonte com estilo arcaico, lembrando escrita de mapas ou aventura */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #64A712; /* Verde vibrante para destacar botões */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 15px;
+    border-radius: 8px;
+    font-family: 'Cinzel Decorative', serif; /* Fonte que lembra gravuras antigas */
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #507C0C; /* Escurece quando o botão é sobreposto */
+}
+
+.passo {
+    display: none;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Fundo semi-transparente para um toque misterioso */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Sombra suave */
+    max-width: 90%;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img {
+    max-width: 90%;
+    border-radius: 12px;
+    border: 2px solid #64A712; /* Borda verde para dar destaque às imagens */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Customizações para responsividade */
+@media (max-width: 600px) {
+    button {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+    
+    main {
+        padding: 10px;
+    }
+}
